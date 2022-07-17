@@ -20,7 +20,7 @@ font-family: 'Ibarra Real Nova', serif;
 
 .sobre {
     position: absolute;
-    top: 10%;
+    top: 2%;
     left: 40%;
     
 }
@@ -63,8 +63,16 @@ ul li:nth-child(odd){
     background-color: blueviolet;
 
 }
-
+/*
 .ajustefinal {
+    font-size: 25px;
    position: absolute;
     left: 80%;
+}*/
+.fonte {
+    font-size: 30px;
+}
+
+.tudo {
+width: 850px
 }
