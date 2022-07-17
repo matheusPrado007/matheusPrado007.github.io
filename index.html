@@ -5,93 +5,117 @@
     <title></title>
   </head>
   
- 
+ <link rel="stylesheet" href="style.css">
 
  
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Ibarra+Real+Nova:wght@500;700&display=swap" rel="stylesheet">
 
-
-<!-- Parte css-->
-
-
-  <style>
-h1 {
-  font-family: 'Cormorant SC', serif;
-font-family: 'Ibarra Real Nova', serif;
-
-}
-  body {
-    background-color: azure;
-  }
-
-img {
-  border-radius: 7%;
-} 
-
-  </style>
+             
+            <!-- corpo-->
 
   <body>
-    <h1> Portifólio Web - Matheus Prado</em></h1>
-    <ul> 
-      <li><a href="#Apresentação">Sobre mim</a> </li>
-    <li> <a href="#Habilidades">Habilidades</a> </li>
-    <li> <a href="#potifolio">Contato</a></li>
-  <li> <a href="#Recomendações">Minhas Recomendações</a> </li></ul>
-  <br>
 
-     
+              <!-- divs-->
+<div>
+  
+  <h1 class="meunome"> Portifólio Web - Matheus Prado</em></h1>
 
-    <h2 id="Apresentação"> <em>Sobre mim</em> </h2>
-    <p >Olá, seja bem-vindo(a)! 
-      <br>
-      Sou o <strong><a href="#foto">Matheus Prado</a>, </strong> resido em <strong><em>Estiva</em></strong>  , uma cidadezinha no sul de <strong><em>Minas Gerais.</em> </strong>  
+  <div class="imagecontainer">
+
+<p id="foto"> <img src="Matheus.jpg" width="300x" alt="Homem tirando foto no espelho"> 
+      
+   <br>
+    <h2 class="sobre">Sobre mim </h2> 
+
+    <br>
+    <p class="Apresentação">Olá, seja bem-vindo(a)! <br>
+    
+    
+    
+      Sou o <strong><a class="corlink" href="Matheus.jpg" target="_blank">Matheus Prado</a>, </strong> resido em <strong><em>Estiva</em></strong>  , uma cidadezinha no sul de <strong><em>Minas Gerais.</em> </strong>  
       <br> 
       Minhas paixões, além de codar são: <em>cinema, música, fotografia, hiking e leitura!</em> </p>
 
-     <p id="foto"> <img src="Matheus.jpg" width="300x" alt="Homem tirando foto no espelho"> </p> 
-      <br>
+      </div>
+</div>
+   
+      <!--fechamento div-->
 
 
-      <!-- Habilidades-->
+     <div class="font"> 
+        
+   <h2><EM>Índice</EM></h2>
+  
+
+   
+    <ul> 
+      <li><a class="corlink" href="#Apresentação">Sobre mim</a> </li>
+      <li> <a  class="corlink"href="#Habilidades">Habilidades</a> </li>
+      <li> <a  class="corlink" href="#potifolio">Contato</a></li>
+      <li> <a class="corlink" href="#Recomendações">Minhas Recomendações</a> </li>
+    </ul>
+  <br>
+
+     
+          <!-- Habilidades-->
+
+
+
 <h2 id="Habilidades"> <em>Minhas Habilidades</em> </h2> 
 
-          <h4>Soft Skills</h4>
 
-      <ul><em><li>Colaboração</li>
-        <li><strong>Empatia</strong> </li>
-      <li>Pensamento criativo</li>
-    <li>Resiliência</li></em>
+          <h4 class="h4a">Soft Skills</h4>
+
+      <ul ><em><li class="softhard">Colaboração</li>
+        <li class="softhard"><strong>Empatia</strong> </li>
+      <li class="softhard">Pensamento criativo</li>
+    <li class="softhard">Resiliência</li></em>
     <br>
+  
 
-<h4>Hard Skills</h4>
 
-<ul><li>Unix & Bash</li>
-  <li>Git</li>
-  <li>GitHub</li>
-  <li>VSCode</li>
-  <li>HTML</li>
+
+<h4 class="h4a">Hard Skills</h4>
+
+
+
+
+<ul><li class="softhard">Unix & Bash</li>
+  <li class="softhard">Git</li>
+  <li class="softhard">GitHub</li>
+  <li class="softhard">VSCode</li>
+  <li class="softhard">HTML</li>
+  <li class="softhard" >CSS</li>
 </ul>
+
+
     <br><br><br><br>
 
 
     <!-- Links -->
 
   <h2><em>Contato</em> </h2>
-    
+   
   
-    <a id="potifolio" href="https://github.com/matheusPrado007">GitHub</a>
+    <a  class="corlink"id="potifolio" href="https://github.com/matheusPrado007" target="_blank">GitHub</a>
 <br>
-    <a id="profissional" href="https://www.linkedin.com/in/matheus--prado/">Linkedin</a>
+    <a class="corlink" id="profissional" href="https://www.linkedin.com/in/matheus--prado/" target="_blank">Linkedin</a>
     <br>
 
 <br><br><br>
 
-  <a href="#foto">Foto</a> <br> 
-    <a id="recomendações" href="https://www.betrybe.com/"> Recomendações</a>
+  <br> 
+  
+  <div class="ajustefinal">
+    <a  class="corlink" id="Recomendações" href="https://www.betrybe.com/" target="_blank"> Recomendações</a>
     <br>
 
-  </ul>
+
+    <a class="corlink" href="#foto" >Foto</a> <br> 
+  </ul> 
+</div>
+</div>
   </body>
 </html>
