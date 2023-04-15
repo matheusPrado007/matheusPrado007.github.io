@@ -1,11 +1,14 @@
 # Matheus Prado 
-Portifólio com HTML, CSS and Bootstrap 
+Portifólio com HTML, CSS e Bootstrap 
 
 # Demo
 - hhttps://matheusprado007.github.io/
 
 
 # Features
+- HTML
+- CSS
+- Bootstrap 
 - Totalmente responsivo
 - Elementos animados no scroll
 
