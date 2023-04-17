@@ -500,22 +500,25 @@
                     </div>
 
                     <div class="col-lg-8" data-aos="fade-up" data-aos-delay="300">
-                        <form action="#" class="row g-lg-3 gy-3">
+                        <form action="https://api.staticforms.xyz/submit" method="post" class="row g-lg-3 gy-3">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control" placeholder="Nome">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Nome">
                             </div>
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" placeholder="Email">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Email">
                             </div>
                             <div class="form-group col-12">
                                 <input type="text" class="form-control" placeholder="Assunto">
                             </div>
                             <div class="form-group col-12">
-                                <textarea name="" rows="4" class="form-control" placeholder="Menssagem"></textarea>
+                                <textarea name="message" id="message" rows="4" class="form-control"
+                                    placeholder="Menssagem"></textarea>
                             </div>
                             <div class="form-group col-12 d-grid">
-                                <button type="submit" class="btn btn-brand">CONTATO</button>
+                                <button type="submit" class="btn btn-brand" id="send">CONTATO</button>
                             </div>
+                            <input type="hidden" name="accessKey" value="971d3cc8-d2b3-44ac-af5e-9a250544dd1f">
+                            <input type="hidden" name="redirectTo" value="https://matheusprado007.github.io/">
                         </form>
                     </div>
                 </div>
@@ -555,6 +558,7 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/aos.js"></script>
     <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/send.js"></script>
 </body>
 
 </html>
