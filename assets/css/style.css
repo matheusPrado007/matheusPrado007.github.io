@@ -40,7 +40,6 @@ img {
     border-right: 2px solid whitesmoke;
     color: var(--color-brand);
     display: inline-block;
-    margin: 0;
     text-align: center;
     padding: 2px;
     max-width: 0;
@@ -50,12 +49,12 @@ img {
 
 .typing-animation {
     animation: blinkCursor .8s infinite normal,
-        typing 4s steps(55) 1s normal both;
+        typing 4s steps(35) 1s normal both;
 }
 
 @keyframes typing {
     100% {
-        max-width: 96%;
+        max-width: 100%;
     }
 }
 
@@ -66,17 +65,34 @@ img {
 }
 
 .stack {
-    animation-name: shine;
-    animation-duration: 6s;
+    animation: shineIn;
+    animation-duration: 3.5s;
     animation-timing-function: ease-in-out;
+    color: #ffffff;
+}
+
+.welcome {
+    animation-name: shine;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    color: #d6d6d6;
 }
 
 @keyframes shine {
-    0% {
-        color: rgb(255, 255, 255);
-    }
+    0% {}
 
     10%, 90% {
+        color: transparent;
+    }
+}
+
+@keyframes shineIn {
+    0% {
+        text-shadow: white 0 0 10px,
+            greenyellow 0 0 25px;
+    }
+
+    10%, 94% {
         color: transparent;
     }
 }
