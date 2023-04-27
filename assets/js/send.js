@@ -1,7 +1,8 @@
-const sendEmail = document.getElementById('send');
+let sendEmail = document.getElementById('send');
 const nome = document.getElementById('name');
 const email = document.getElementById('email');
 const message = document.getElementById('message');
+
 
 function validations() {
     const emailRegex = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+(\.[a-z]+)?$/i;
@@ -18,7 +19,8 @@ function validations() {
         alert('Enviado com sucesso')
     }
 }
-sendEmail.addEventListener('click', (event) => {
-    // event.preventDefault();
+
+
+sendEmail.addEventListener('click', () => {
     validations();
 });

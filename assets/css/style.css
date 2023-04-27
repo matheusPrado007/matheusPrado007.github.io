@@ -6,7 +6,7 @@
     --color-base: #033f47;
     --color-base2: #022a30;
     --color-brand: #00ff8cd2;
-    --color-brand2: #9058ff;
+    --color-brand2: #fbfbfbc5;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
@@ -37,10 +37,50 @@ img {
 }
 
 .text-brand {
+    border-right: 2px solid whitesmoke;
     color: var(--color-brand);
+    margin: 0;
+    text-align: center;
+    padding: 2px;
+    max-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
-.bg-base {
+.typing-animation {
+    animation: blinkCursor .8s infinite normal,
+        typing 4s steps(55) 1s normal both;
+}
+
+@keyframes typing {
+    100% {
+        max-width: 96%;
+    }
+}
+
+@keyframes blinkCursor {
+    100% {
+        border-right-color: transparent;
+    }
+}
+
+.stack {
+    animation-name: shine;
+    animation-duration: 6s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes shine {
+    0% {
+        color: rgb(255, 255, 255);
+    }
+
+    10%, 90% {
+        color: transparent;
+    }
+}
+
+key .bg-base {
     background-color: var(--color-base);
 }
 
