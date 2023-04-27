@@ -39,6 +39,7 @@ img {
 .text-brand {
     border-right: 2px solid whitesmoke;
     color: var(--color-brand);
+    display: inline-block;
     margin: 0;
     text-align: center;
     padding: 2px;
