@@ -37,6 +37,10 @@ img {
 }
 
 .text-brand {
+    color: var(--color-brand);
+}
+
+.line {
     border-right: 2px solid whitesmoke;
     color: var(--color-brand);
     display: inline-block;
@@ -68,7 +72,7 @@ img {
     animation: shineIn;
     animation-duration: 7s;
     animation-timing-function: ease-in-out;
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .welcome {
