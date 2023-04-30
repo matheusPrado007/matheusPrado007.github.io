@@ -6,7 +6,7 @@
     --color-base: #033f47;
     --color-base2: #022a30;
     --color-brand: #00ff8cd2;
-    --color-brand2: #fbfbfbc5;
+    --color-brand2: #97ffd0;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
@@ -70,7 +70,7 @@ img {
 
 .stack {
     animation: shineIn;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-timing-function: ease-in-out;
     /* color: #ffffff; */
 }
@@ -187,9 +187,9 @@ key .bg-base {
 
 .btn-brand:hover,
 .btn-brand:focus {
-    background-color: var(--color-brand2);
-    color: var(--color-base);
-    border-color: var(--color-brand2);
+    background-color: rgba(76, 76, 76, 0.501);
+    /* color: var(--color-base); */
+    /* border-color: var(--color-brand2); */
 }
 
 .link-custom {
