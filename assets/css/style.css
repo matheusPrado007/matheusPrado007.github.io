@@ -45,7 +45,7 @@ img {
     color: var(--color-brand);
     display: inline-block;
     text-align: center;
-    padding: 2px;
+    padding: 0px;
     max-width: 0;
     white-space: nowrap;
     overflow: hidden;
@@ -69,7 +69,7 @@ img {
 }
 
 .stack {
-    animation: shineIn;
+    animation: shine-in;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
     /* color: #ffffff; */
@@ -90,7 +90,7 @@ img {
     }
 }
 
-@keyframes shineIn {
+@keyframes shine-in {
     0% {
         text-shadow: white 0 0 10px,
             greenyellow 0 0 25px;
