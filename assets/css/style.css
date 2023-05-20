@@ -175,6 +175,7 @@ key .bg-base {
 
 /* BTN */
 .btn {
+    /* width: 15rem; */
     padding: 12px 28px;
     font-weight: 700;
 }
