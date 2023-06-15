@@ -1,5 +1,5 @@
 # Matheus Prado 
-Portifólio com HTML, CSS e Bootstrap 
+Portfólio com HTML, CSS e Bootstrap 
 
 # Demo
 - https://matheusprado007.github.io/
