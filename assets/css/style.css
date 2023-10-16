@@ -259,3 +259,20 @@ key .bg-base {
     border-radius: 100px;
     font-size: 24px;
 }
+
+.div-img-perfil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-perfil {
+    border-radius: 50%;
+    width: 80%;
+    border: 5px solid rgba(0, 255, 0, 0.414);
+}
+
+
+  
+  
