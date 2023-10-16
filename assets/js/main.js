@@ -14,36 +14,25 @@ AOS.init({
 
 });
 
-$(document).ready(function() {
-  // Configurações do carrossel "Front-end"
-  $("#carouselFrontEnd").slick({
-    infinite: true,
-    slidesToShow: 2, // Número de slides a serem exibidos em telas maiores
-    slidesToScroll: 2, // Número de slides a serem rolados por vez
-    responsive: [
-      {
-        breakpoint: 768, // Configurações para telas menores (exemplo: tablets)
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  });
 
-  // Configurações do carrossel "Back-end"
-  $("#carouselBackEnd").slick({
-    infinite: true,
-    slidesToShow: 2, // Número de slides a serem exibidos em telas maiores
-    slidesToScroll: 2, // Número de slides a serem rolados por vez
-    responsive: [
-      {
-        breakpoint: 768, // Configurações para telas menores (exemplo: tablets)
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  });
-});
+
+  // $(document).ready(function () {
+  //   $("#projetos .row").owlCarousel({
+  //     loop: true,
+  //     margin: 30,
+  //     nav: true,
+  //     responsive: {
+  //       0: {
+  //         items: 1,
+  //       },
+  //       768: {
+  //         items: 2,
+  //       },
+  //       992: {
+  //         items: 3,
+  //       },
+  //     },
+  //   });
+  // });
+
+
