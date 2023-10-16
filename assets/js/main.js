@@ -13,3 +13,37 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+$(document).ready(function() {
+  // Configurações do carrossel "Front-end"
+  $("#carouselFrontEnd").slick({
+    infinite: true,
+    slidesToShow: 2, // Número de slides a serem exibidos em telas maiores
+    slidesToScroll: 2, // Número de slides a serem rolados por vez
+    responsive: [
+      {
+        breakpoint: 768, // Configurações para telas menores (exemplo: tablets)
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+
+  // Configurações do carrossel "Back-end"
+  $("#carouselBackEnd").slick({
+    infinite: true,
+    slidesToShow: 2, // Número de slides a serem exibidos em telas maiores
+    slidesToScroll: 2, // Número de slides a serem rolados por vez
+    responsive: [
+      {
+        breakpoint: 768, // Configurações para telas menores (exemplo: tablets)
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+});
